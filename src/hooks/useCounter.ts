@@ -78,6 +78,7 @@ export const useCounter = ({ initialCount, maxCount, minCount }: Config) => {
   return {
     // state
     ...counterState,
+    state: counterState,
 
     // actions
     incrementBy,
